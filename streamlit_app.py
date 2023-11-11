@@ -36,5 +36,5 @@ streamlit.text("The fruit load list contains:")
 streamlit.text(my_data_rows)
 
 add_my_fruit = streamlit.text_input('What fruit would you like information about?','Kiwi')
-streamlit.write('The user entered ', add_my_fruit)
-my_cur.execute(" insert into fruit_load_list values ('from streamlist')")
+streamlit.write('Thanks for adding ', add_my_fruit)
+#my_cur.execute(" insert into fruit_load_list values ('from streamlist')")
